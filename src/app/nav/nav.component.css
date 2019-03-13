@@ -1,30 +1,68 @@
-header {
-    background: #7700FF;
 
-    .logo {
-        font-weight: bold;
-    }
-
-    nav {
-        justify-self: right;
+ #tabs29{
+    position:relative;
+    display:block;
+    height:36px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:bold;
     
-        ul {
-            list-style-type: none;
-            margin: 0; padding: 0;
+    font-family:Helvetica,Arial,Verdana,sans-serif;
+    border-bottom:4px solid #336666;
+    border-top:1px solid #C0E2D4;
+}
+ #tabs29 ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    width:auto;
+}
+ #tabs29 li{
+    display:block;
+    float:left;
+    margin:0;
+    pading:0;
+}
+ #tabs29 li a{
+    display:block;
+    float:left;
+    color:#874B46;
+    text-decoration:none;
+    padding:12px 20px 0 20px;
+    height:24px;
+    
+}
+ #tabs29 li a:hover{
+    
+}
+ #tabs29 li a.current,#tabs29 li a.current:hover{
+    color: green;
+    
+}
 
-            li {
-                float: left;
+footer {
+	position: absolute;
+	height: 50px;
+    width: 100%;
+    background-color: gray;
+}
 
-                a {
-                    padding: 1.5em;
-                    text-transform: uppercase;
-                    font-size: .8em;
+p{
+    position: relative;
+	width: 100%;
+    color: #fff;
+    line-height: 30px;
+    font-size: 0.7em;
+	text-align: center;
+    bottom:0;
+}
 
-                    &:hover {
-                        background: #8E2BFF;
-                    }
-                }
-            }
-        }
-    }
+p.copyright {
+	position: absolute;
+	width: 100%;
+    color: #fff;
+    line-height: 60px;
+    font-size: 0.7em;
+	text-align: center;
+    bottom:0;    
 }
