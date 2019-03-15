@@ -7,6 +7,9 @@ import { NavComponent } from './nav/nav.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { HeaderComponent } from './header/header.component';
+import { StudentModule } from './student/student.module';
 
 @NgModule({
   declarations: [
@@ -14,12 +17,15 @@ import { HomeComponent } from './home/home.component';
     NavComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    StudentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
